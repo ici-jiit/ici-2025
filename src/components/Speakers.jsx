@@ -21,12 +21,8 @@ const Speakers = () => {
       <div className="container mx-auto px-4">
         {/* Accepted Authors Instructions */}
         <div className="text-center mb-12">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
-            <img
-              className="h-10 w-10"
-              src={speaker1}
-              alt="Instructions Icon"
-            />
+          <span className="inline-block p-4 bg-white border-2 border-blue-300 rounded-full mb-4">
+            <img className="h-10 w-10" src={speaker1} alt="Instructions Icon" />
           </span>
           <h2 className="text-4xl font-bold mb-4">
             Accepted Authors Instructions
@@ -74,12 +70,8 @@ const Speakers = () => {
 
         {/* Keynote Speakers */}
         <div className="text-center mb-12">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
-            <img
-              className="h-10 w-10"
-              src={speaker2}
-              alt="Speakers Icon"
-            />
+          <span className="inline-block p-4 bg-white border-2 border-blue-300 rounded-full mb-4">
+            <img className="h-10 w-10" src={speaker2} alt="Speakers Icon" />
           </span>
           <h2 className="text-4xl font-bold mb-4">Keynote Speakers</h2>
           {/* Uncomment if needed */}
@@ -151,7 +143,7 @@ const Speakers = () => {
 
         {/* Invited Speakers */}
         <div className="text-center mb-12">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
+          <span className="inline-block p-4 bg-white border-2 border-blue-300 rounded-full mb-4">
             <img
               className="h-10 w-10"
               src={invited}

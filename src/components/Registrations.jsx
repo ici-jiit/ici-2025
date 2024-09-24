@@ -1,36 +1,25 @@
 import speaker from "../assets/svg/speaker-icon-2.svg";
 const Registrations = () => {
   return (
-    <section id="registration" className="relative bg-gray-100 py-12">
-      {/* Curved Decoration */}
-      <div className="absolute inset-x-0 top-0">
-        <svg
-          className="w-full h-32 fill-current text-white"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 2560 221"
-        >
-          <polygon points="0,0 2560,0 0,221" />
-        </svg>
-      </div>
-
+    <section
+      id="registration"
+      className="relative bg-gradient-to-r from-indigo-500 to-indigo-900 py-12"
+    >
+     
       {/* Container */}
       <div className="relative container mx-auto px-4 py-12">
         {/* Header */}
         <div className="text-center mb-12">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
-            <img
-              className="h-12 w-12"
-              src={speaker}
-              alt="Registration Icon"
-            />
+          <span className="inline-block p-4 bg-white rounded-full mb-4">
+            <img className="h-12 w-12" src={speaker} alt="Registration Icon" />
           </span>
-          <h2 className="text-4xl font-bold mb-4">Registration</h2>
-          <p className="text-red-600 text-2xl mb-6">REGISTRATION CLOSED</p>
+          <h2 className="text-4xl font-bold mb-4 text-blue-300">Registration</h2>
+          {/* <p className="text-red-600 text-2xl mb-6">REGISTRATION CLOSED</p> */}
         </div>
 
         {/* Registration Table */}
         <div className="overflow-x-auto mb-12">
-          <table className="min-w-full bg-gray-800 text-white border-collapse">
+          <table className="min-w-full bg-transparent text-white border-collapse">
             <thead>
               <tr>
                 <th className="border px-4 py-2 text-left">CATEGORY</th>

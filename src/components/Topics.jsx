@@ -10,8 +10,8 @@ const Topics = () => {
       icon: ideaIcon,
       title: "IoT, Smart and Embedded Systems",
       chairs: [
-        { name: "Prof. Vinay Chamola", affiliation: "BITS, Pilani, India" },
-        { name: "Dr. Parmeet Kaur", affiliation: "JIIT Noida, India" },
+        { name: "Outside", affiliation: "Outside" },
+        { name: "Dr. Rajlakshmi", affiliation: "JIIT Noida, India" },
       ],
     },
     {
@@ -19,18 +19,18 @@ const Topics = () => {
       title: "Artificial Intelligence & Machine Learning",
       chairs: [
         {
-          name: "Prof. Pradeep Chowriappa",
-          affiliation: "Louisiana Tech University, LA, USA",
+          name: "Outside",
+          affiliation: "Outside",
         },
-        { name: "Prof. Krishna Asawa", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Prakash Kumar", affiliation: "JIIT Noida, India" },
       ],
     },
     {
       icon: settings,
       title: "Big Data & Data Analytics",
       chairs: [
-        { name: "Dr. Somdeb Majumdar", affiliation: "Intel AI Labs, USA" },
-        { name: "Dr. Adwitiya Sinha", affiliation: "JIIT Noida, India" },
+        { name: "Outside", affiliation: "Outside" },
+        { name: "Prof. Devpriya Soni", affiliation: "JIIT Noida, India" },
       ],
     },
     {
@@ -38,10 +38,10 @@ const Topics = () => {
       title: "Software Development Engineering",
       chairs: [
         {
-          name: "Prof. Prabhat Kumar Mahanti",
-          affiliation: "University of New Brunswick, Canada",
+          name: "Outside",
+          affiliation: "Outside",
         },
-        { name: "Prof. Neetu Sardana", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Neetu Sardana", affiliation: "JIIT Noida, India" },
       ],
     },
     {
@@ -49,26 +49,25 @@ const Topics = () => {
       title: "Cloud & Distributed Computing",
       chairs: [
         {
-          name: "Prof. Hema Banati",
-          affiliation: "University of Delhi, Delhi, India",
+          name: "Outside",
+          affiliation: "Outside",
         },
-        { name: "Prof. Shikha Mehta", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Parmeet Kaur", affiliation: "JIIT Noida, India" },
       ],
     },
   ];
 
   return (
-    <section id="topics" className="py-12 bg-gray-100">
+    <section
+      id="topics"
+      className="p-12 bg-gradient-to-r from-indigo-500 to-indigo-900"
+    >
       <div className="container mx-auto">
         <div className="text-center mb-8">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
-            <img
-              src={topic}
-              alt="Topics Icon"
-              className="h-10 w-10"
-            />
+          <span className="inline-block p-4 bg-white rounded-full mb-4">
+            <img src={topic} alt="Topics Icon" className="h-10 w-10" />
           </span>
-          <h2 className="text-4xl font-bold">Tracks and Track Chair(s)</h2>
+          <h2 className="text-4xl font-bold text-blue-300">Tracks and Track Chair(s)</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

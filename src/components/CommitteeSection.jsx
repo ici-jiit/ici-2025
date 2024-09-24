@@ -24,12 +24,8 @@ const CommitteeSection = () => {
       ],
     },
     {
-      title: "General chair(s)",
+      title: "General chair",
       members: [
-        {
-          name: "Prof. Sartaj Sahni",
-          affiliation: "Fellow IEEE & Fellow ACM, University of Florida, USA",
-        },
         {
           name: "Prof. Vikas Saxena",
           affiliation: "SMIEEE, JIIT Noida, India",
@@ -54,46 +50,60 @@ const CommitteeSection = () => {
           name: "Prof. Sandeep Kumar Singh",
           affiliation: "MIEEE, JIIT Noida, India",
         },
+        {
+          name: "Prof. Chetna Gupta",
+          affiliation: "JIIT Noida, India",
+        },
       ],
     },
     {
       title: "Organizing Secretary(s)",
       members: [
-        { name: "Prof. Charu", affiliation: "SMIEEE, JIIT Noida, India" },
-        { name: "Prof. Chetna Gupta", affiliation: "JIIT Noida, India" },
+        {
+          name: "Prof. Krishna Asawa",
+          affiliation: "JIIT Noida, India",
+        },
+        { name: "Prof. Shikha Mehta", affiliation: "JIIT Noida, India" },
       ],
     },
     {
       title: "Publication Chair(s)",
       members: [
-        { name: "Prof. Anuja Arora", affiliation: "JIIT Noida, India" },
-        { name: "Prof. Devpriya Soni", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Mukta Goyal", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Neeraj Jain", affiliation: "JIIT Noida, India" },
       ],
     },
     {
       title: "Publicity Chair(s)",
       members: [
         { name: "Dr. Mukesh Saraswat", affiliation: "JIIT Noida, India" },
-        { name: "Dr. Manju", affiliation: "JIIT Noida, India" },
+        { name: "Dr Ankit Vidyarathi", affiliation: "JIIT Noida, India" },
+        { name: "Dr Imran Rasheed", affiliation: "JIIT Noida, India" },
+        { name: "Ms Neetu Singh", affiliation: "JIIT Noida, India" },
+        { name: "Ms Jyoti ", affiliation: "JIIT Noida, India" },
+        { name: "Ms Shagun Gupta", affiliation: "JIIT Noida, India" },
+        { name: "Ms Preeti Mittal", affiliation: "JIIT Noida, India" },
       ],
     },
     {
       title: "Tutorial and Workshop Chair(s)",
       members: [
-        { name: "Dr. Raju Pal", affiliation: "JIIT Noida, India" },
-        { name: "Dr. Anubhuti Mohindra", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Kedar Nath", affiliation: "JIIT Noida, India" },
+        { name: "Dr.  Arti Jain", affiliation: "JIIT Noida, India" },
       ],
     },
     {
       title: "Registration Chair",
       members: [
         { name: "Dr. Himani Bansal", affiliation: "SMIEEE, JIIT Noida, India" },
+        { name: "Dr Shelendra Pal", affiliation: "JIIT Noida, India" },
       ],
     },
     {
       title: "Web Administration",
       members: [
         { name: "Dr. Pulkit Mehndiratta", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Vartika Puri", affiliation: "JIIT Noida, India" },
       ],
     },
   ];
@@ -102,12 +112,8 @@ const CommitteeSection = () => {
     <section id="committee" className="bg-gray-100 py-12">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
-            <img
-              src={speaker}
-              alt="Committee Icon"
-              className="h-10 w-10"
-            />
+          <span className="inline-block p-4 bg-white border-2 border-blue-300 rounded-full mb-4">
+            <img src={speaker} alt="Committee Icon" className="h-10 w-10" />
           </span>
           <h2 className="text-4xl font-bold">Organizing Committee</h2>
         </div>
@@ -134,7 +140,7 @@ const CommitteeSection = () => {
         ))}
 
         <div className="text-center mt-12">
-          <span className="inline-block p-4 bg-gray-800 rounded-full mb-4">
+          <span className="inline-block p-4 bg-white border-2 border-blue-300 rounded-full mb-4">
             <img
               src={speaker2}
               alt="Program Committee Icon"
@@ -161,22 +167,6 @@ const CommitteeSection = () => {
             </p>
           </div>
         </div>
-      </div>
-
-      {/* Curved Decoration */}
-      <div className="curved-decoration">
-        <svg
-          version="1.1"
-          className="bg-third-svg"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 2560 221"
-          xmlSpace="preserve"
-        >
-          <polygon points="2560,221 0,221 2560,0 "></polygon>
-        </svg>
       </div>
     </section>
   );

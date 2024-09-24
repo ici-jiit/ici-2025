@@ -3,11 +3,11 @@ import speaker from "../assets/svg/speaker-icon.svg";
 const ConferenceInfo = () => {
   return (
     <>
-      <section className="relative overflow-hidden bg-gray-800 text-white py-12">
+      <section className="relative overflow-hidden bg-gradient-to-r from-indigo-500 to-indigo-900 text-white py-12">
         {/* Marquee */}
         <div className="text-center py-2">
-          <marquee className="bg-gray-700 p-2">
-            ICI-2023 Conference will be held in Online Mode only
+          <marquee className="bg-indigo-400 p-2">
+            ICI-2024 Conference will be held in hybrid at JIIT Sector 62.
           </marquee>
         </div>
         <div className="h-[7vh]"></div>
@@ -15,20 +15,16 @@ const ConferenceInfo = () => {
         {/* Divider */}
         <div className="flex justify-center mb-12">
           <div className="w-5/12 lg:w-1/4">
-            <hr className="border-gray-600" />
+            <hr className="border-white" />
           </div>
         </div>
       </section>
 
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white">
         <div className="flex flex-wrap -mx-4 z-10 relative">
           <div className="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
             <div className="flex items-center">
-              <img
-                className="w-16 h-16 mr-4"
-                src={map}
-                alt="Location Icon"
-              />
+              <img className="w-16 h-16 mr-4" src={map} alt="Location Icon" />
               <div>
                 <h2 className="text-xl font-bold mb-2">Location</h2>
                 <p>
@@ -48,13 +44,14 @@ const ConferenceInfo = () => {
               <div>
                 <h3 className="text-xl font-bold mb-2">Important Dates</h3>
                 <p>
-                  Conference dates: 23-25 November 2023
+                  Conference dates: 6<sup>th</sup>-8<sup>th</sup> November, 2025
                   <br />
-                  Full Paper Submission: 31<sup>st</sup> August, 2023
+                  Full Paper Submission: 25<sup>th</sup> June 2025 - 25
+                  <sup>th</sup> July, 2025
                   <br />
-                  Author Notification: 20<sup>th</sup> October, 2023
+                  Notification of acceptance: 31<sup>st</sup> August, 2025
                   <br />
-                  Final Paper Submission: 30<sup>th</sup> October, 2023
+                  Final Paper Submission: 25<sup>th</sup> September, 2025
                 </p>
               </div>
             </div>
@@ -72,13 +69,13 @@ const ConferenceInfo = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-gray-900 mb-8" id="about">
+      <div className="container mx-auto px-8 py-12 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white">
+        <h1 className="text-3xl font-bold text-blue-300 mb-8" id="about">
           About
         </h1>
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-            <p className="text-gray-800 leading-relaxed">
+            <p className=" leading-relaxed text-justify">
               The Department of Computer Science & Engineering and Information
               Technology is a leading department of Jaypee Institute of
               Information Technology (JIIT), Noida which is a UGC approved,
@@ -97,7 +94,7 @@ const ConferenceInfo = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 px-4">
-            <p className="text-gray-800 leading-relaxed">
+            <p className="leading-relaxed text-justify">
               JIIT aspires to gain recognition on a global scale for the calibre
               of its creative and research initiatives, as well as their
               relevance to enhancing quality of life, producing novel insights,

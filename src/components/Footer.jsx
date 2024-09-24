@@ -2,20 +2,18 @@
 import email from "../assets/svg/email-icon.svg"
 import contact from "../assets/svg/contact-icon.svg";
 import location from "../assets/svg/location-icon.svg"
+import { FaFacebook,FaGlobe } from "react-icons/fa";
+import { GrInstagram } from "react-icons/gr";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-primary-3 py-12">
+      <footer className="bg-gray-800 py-12 text-white">
         <div className="container mx-auto px-4">
           {/* Contact Details Row */}
           <div className="flex flex-wrap -mx-4 mb-8">
             <div className="w-full md:w-1/3 px-4 mb-8 md:mb-0">
               <div className="flex items-start">
-                <img
-                  className="w-12 h-12 mr-4"
-                  src={email}
-                  alt="Email Icon"
-                />
+                <img className="w-12 h-12 mr-4" src={email} alt="Email Icon" />
                 <div>
                   <h4
                     className="text-white text-lg font-semibold mb-2"
@@ -77,7 +75,7 @@ const Footer = () => {
 
           {/* Social Media Icons */}
           <div className="flex justify-center mb-6">
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-4 text-2xl">
               <li>
                 <a
                   className="text-white hover:text-gray-300"
@@ -85,7 +83,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="fab fa-facebook-f"></span>
+                  <FaFacebook />
                 </a>
               </li>
               <li>
@@ -95,17 +93,17 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="fab fa-google"></span>
+                  <FaGlobe />
                 </a>
               </li>
               <li>
                 <a
                   className="text-white hover:text-gray-300"
-                  href="#"
+                  href="https://instagram.com/jiit.official/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="fab fa-twitter"></span>
+                  <GrInstagram />
                 </a>
               </li>
             </ul>
@@ -121,8 +119,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                JIIT Admin
-                (PA-AC)
+                JIIT Admin (PA-AC)
               </a>
               .
             </p>

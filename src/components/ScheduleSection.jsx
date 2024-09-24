@@ -2,10 +2,10 @@ import schedule from "../assets/svg/schedule-icon.svg";
 
 const ScheduleSection = () => {
   return (
-    <section id="schedule" className="bg-gray-200 py-12">
+    <section id="schedule" className="bg-gray-200 px-24 py-12">
       <div className="container mx-auto text-center">
         <div className="mb-5 pb-5">
-          <span className="inline-block p-4 mb-3 rounded-full bg-gray-800">
+          <span className="inline-block p-4 mb-3 rounded-full bg-white border-2 border-blue-300">
             <img src={schedule} alt="Schedule Icon" className="h-10 w-10" />
           </span>
           <h2 className="text-4xl font-bold">Conference Schedule</h2>
@@ -20,7 +20,6 @@ const ScheduleSection = () => {
           src="./new.JPG"
           alt="Blinking Image"
           className="mx-auto animate-pulse"
-          
         />
 
         <div className="mt-5 space-y-4">
@@ -36,19 +35,22 @@ const ScheduleSection = () => {
             </a>
           </div>
 
-          <div className="mt-8 space-y-8">
+          <div className="mt-8 space-y-8 ">
             <ScheduleItem
               title="Conference Date"
-              date="23rd - 25th November 2023"
+              date="6th-8th November, 2025"
             />
-            <ScheduleItem title="Full Paper Submission" date="CLOSED!!!" />
             <ScheduleItem
-              title="Author Notification"
-              date="20th October 2023"
+              title="Paper Submission"
+              date="25th June 2025 - 25th July, 2025 (hard deadline)"
+            />
+            <ScheduleItem
+              title="Notification of acceptance"
+              date="31st August, 2025"
             />
             <ScheduleItem
               title="Final Paper Submission"
-              date="30th October 2023"
+              date="25th September, 2025"
             />
           </div>
         </div>
