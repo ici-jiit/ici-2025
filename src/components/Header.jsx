@@ -36,11 +36,11 @@ const Header = () => {
 
   return (
     <header className="bg-gradient-to-r from-indigo-500 to-indigo-900 shadow-lg fixed w-full z-50">
-      <div className="container mx-auto p-4">
-        <nav className="flex justify-between items-center">
-          <a className="flex items-center space-x-3" href="#wrapper">
+      <div className="">
+        <nav className="flex justify-evenly items-center w-full mx-auto py-4 px-6">
+          <a className="flex items-center px-2" href="#wrapper">
             <img className="h-12" id="jp" src={logo} alt="ICI 2025 Logo" />
-            <p className="text-lg font-semibold text-white">ICI-2025</p>
+            <p className="text-lg font-semibold text-white pl-2">ICI-2025</p>
           </a>
           {/* Mobile Menu Toggle Button */}
           <button
@@ -50,7 +50,7 @@ const Header = () => {
             <IoMenu />
           </button>
           {/* Desktop Menu */}
-          <div className="hidden lg:flex space-x-6">
+          <div className="hidden lg:flex space-x-4">
             <a className="text-white hover:text-blue-300" href="#wrapper">
               Home
             </a>

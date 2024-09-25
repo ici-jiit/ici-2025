@@ -1,7 +1,7 @@
 import img from "../assets/img/newBanner.png"
 const Banner = () => {
   return (
-    <div className="w-full pt-[4.75rem]" id="wrapper">
+    <div className="w-full pt-[5rem]" id="wrapper">
       <img
         src={img}
         alt="Final Banner"
