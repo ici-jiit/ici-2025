@@ -7,7 +7,7 @@ const ConferenceInfo = () => {
         {/* Marquee */}
         <div className="text-center py-2">
           <marquee className="bg-indigo-400 p-2">
-            ICI-2024 Conference will be held in hybrid at JIIT Sector 62.
+            ICI-2024 Conference will be held in hybrid mode at JIIT Sector 62.
           </marquee>
         </div>
         <div className="h-[7vh]"></div>

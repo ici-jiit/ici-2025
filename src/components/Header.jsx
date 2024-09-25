@@ -39,8 +39,8 @@ const Header = () => {
       <div className="container mx-auto p-4">
         <nav className="flex justify-between items-center">
           <a className="flex items-center space-x-3" href="#wrapper">
-            <img className="h-12" id="jp" src={logo} alt="ICI 2024 Logo" />
-            <p className="text-lg font-semibold text-white">ICI-2024</p>
+            <img className="h-12" id="jp" src={logo} alt="ICI 2025 Logo" />
+            <p className="text-lg font-semibold text-white">ICI-2025</p>
           </a>
           {/* Mobile Menu Toggle Button */}
           <button

@@ -1,4 +1,4 @@
-import img from "../assets/img/Final_Banner.png"
+import img from "../assets/img/newBanner.png"
 const Banner = () => {
   return (
     <div className="w-full pt-[4.75rem]" id="wrapper">

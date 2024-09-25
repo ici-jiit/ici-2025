@@ -10,20 +10,20 @@ const ScheduleSection = () => {
           </span>
           <h2 className="text-4xl font-bold">Conference Schedule</h2>
           <p className="mx-auto mt-2 text-lg leading-relaxed">
-            We are very excited about the program being planned for ICI-2023
+            We are very excited about the program being planned for ICI-2025
             this winter in <br /> Jaypee Institute of Information Technology,
             Noida.
           </p>
         </div>
 
-        <img
+        {/* <img
           src="./new.JPG"
           alt="Blinking Image"
           className="mx-auto animate-pulse"
-        />
+        /> */}
 
         <div className="mt-5 space-y-4">
-          <div className="text-xl text-red-600">
+          {/* <div className="text-xl text-red-600">
             <a href="Calender_ICI_23.pdf" download>
               Click here for ICI 2023 Conference Calendar
             </a>
@@ -33,7 +33,7 @@ const ScheduleSection = () => {
             <a href="PPS_ICI_23.pdf" download>
               Click here for ICI 2023 Paper Presentation Schedule
             </a>
-          </div>
+          </div> */}
 
           <div className="mt-8 space-y-8 ">
             <ScheduleItem

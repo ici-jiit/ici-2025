@@ -10,7 +10,22 @@ const Topics = () => {
       icon: ideaIcon,
       title: "IoT, Smart and Embedded Systems",
       chairs: [
-        { name: "Outside", affiliation: "Outside" },
+        // {
+        //   name: "Dr.  Stavros Shiaeles",
+        //   affiliation: "University of Portsmouth, UK",
+        // },
+        // {
+        //   name: "Prof. Rajendran Parthiban",
+        //   affiliation: "Monash University, Australia",
+        // },
+        // {
+        //   name: "Prof. Luca Citi",
+        //   affiliation: "University of Essex , UK",
+        // },
+        // {
+        //   name: "Prof. Noor Zaman Jhanjhi",
+        //   affiliation: "Taylor's University, Malaysia",
+        // },
         { name: "Dr. Rajlakshmi", affiliation: "JIIT Noida, India" },
       ],
     },
@@ -19,8 +34,8 @@ const Topics = () => {
       title: "Artificial Intelligence & Machine Learning",
       chairs: [
         {
-          name: "Outside",
-          affiliation: "Outside",
+          name: "Dr. Tania Banerjee",
+          affiliation: "University of Houston",
         },
         { name: "Dr. Prakash Kumar", affiliation: "JIIT Noida, India" },
       ],
@@ -29,7 +44,7 @@ const Topics = () => {
       icon: settings,
       title: "Big Data & Data Analytics",
       chairs: [
-        { name: "Outside", affiliation: "Outside" },
+        // { name: "Outside", affiliation: "Outside" },
         { name: "Prof. Devpriya Soni", affiliation: "JIIT Noida, India" },
       ],
     },
@@ -38,8 +53,8 @@ const Topics = () => {
       title: "Software Development Engineering",
       chairs: [
         {
-          name: "Outside",
-          affiliation: "Outside",
+          name: "Shailendra Rathore",
+          affiliation: "United Kingdom,  Abertay University, UK",
         },
         { name: "Dr. Neetu Sardana", affiliation: "JIIT Noida, India" },
       ],
@@ -49,8 +64,8 @@ const Topics = () => {
       title: "Cloud & Distributed Computing",
       chairs: [
         {
-          name: "Outside",
-          affiliation: "Outside",
+          name: "Prof. Anastasios Dagiuklas ",
+          affiliation: "London South Bank University",
         },
         { name: "Dr. Parmeet Kaur", affiliation: "JIIT Noida, India" },
       ],
