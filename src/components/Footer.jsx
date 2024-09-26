@@ -119,7 +119,8 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                JIIT Admin (PA-AC)
+                JIIT Admin 
+                {/* PA-AC */}
               </a>
               .
             </p>
