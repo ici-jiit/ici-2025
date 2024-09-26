@@ -41,11 +41,11 @@ const CallForPapers = () => {
               </ul>
               <p className="text-lg ">
                 <a
-                  href="CFP_ICI_2023.pdf"
+                  href="#"
                   download
                   className="text-blue-300 hover:underline"
                 >
-                  Click here for ICI CFP 2023
+                  Click here for ICI CFP 2025(To Be Announced)
                 </a>
               </p>
             </div>

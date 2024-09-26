@@ -7,7 +7,7 @@ const ConferenceInfo = () => {
         {/* Marquee */}
         <div className="text-center py-2">
           <marquee className="bg-indigo-400 p-2">
-            ICI-2024 Conference will be held in hybrid mode at JIIT Sector 62.
+            ICI-2025 Conference will be held in hybrid mode at JIIT Sector 62.
           </marquee>
         </div>
         <div className="h-[7vh]"></div>
@@ -98,14 +98,14 @@ const ConferenceInfo = () => {
               JIIT aspires to gain recognition on a global scale for the calibre
               of its creative and research initiatives, as well as their
               relevance to enhancing quality of life, producing novel insights,
-              and extending the frontiers of human knowledge. The 2023 Second
+              and extending the frontiers of human knowledge. The 2025
               International Conference on Informatics (ICI) aims to provide a
               leading international forum for researchers, scientists, and
               industry professionals who are working on next generation
               informatics. The conference will give a platform to showcase
               methodological and technological advancements in emerging areas of
               Big Data, AI & Machine learning, Blockchain and Cloud Technology,
-              IOT and smart systems etc. ICI-2023 will be conducted in online
+              IOT and smart systems etc. ICI-2025 will be conducted in online
               mode. The authors of accepted papers will have to present their
               papers online only.
             </p>

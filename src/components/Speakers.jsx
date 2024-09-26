@@ -36,13 +36,14 @@ const Speakers = () => {
             <div className="text-lg text-gray-700 mb-6">
               <ul className="list-disc list-inside">
                 <li>
-                  The list of accepted papers for ICI-2023{" "}
+                  The list of accepted papers for ICI-2025{" "}
                   <a
-                    href="paper_details_modified.xlsx"
+                    href="#"
                     download
                     className="text-red-600 text-xl"
                   >
-                    Click Here
+                    {/* Click Here */}
+                    (To Be Announced)
                   </a>
                 </li>
                 <li>
@@ -54,11 +55,11 @@ const Speakers = () => {
                 </li>
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/19BlJM0zKfd7XKdaPx5U_YZf91cEYIqPW/view?usp=share_link"
+                    href="#"
                     download
                     className="text-blue-600"
                   >
-                    Click Here
+                    Click Here( To Be Announced )
                   </a>{" "}
                   to download the instructions file for authors of accepted
                   papers in ICI-2023.
@@ -75,12 +76,12 @@ const Speakers = () => {
           </span>
           <h2 className="text-4xl font-bold mb-4">Keynote Speakers</h2>
           {/* Uncomment if needed */}
-          {/* <p className="text-lg text-gray-700 mx-auto mb-0">TBD</p> */}
+          <p className="text-lg text-gray-700 mx-auto mb-0">To Be Announced</p>
         </div>
 
         <div className="flex flex-wrap justify-around">
-          {/* Speaker 1 */}
-          <div className="text-center mb-8">
+          
+          {/* <div className="text-center mb-8">
             <img
               src={shekhar}
               className="w-32 h-32 mb-4 rounded-full object-cover"
@@ -93,9 +94,8 @@ const Speakers = () => {
               <br />
               IIIT Allahabad, India
             </h5>
-          </div>
-          {/* Speaker 2 */}
-          <div className="text-center mb-8">
+          </div> */}
+          {/* <div className="text-center mb-8">
             <img
               src={makino}
               className="w-32 h-32 mb-4 rounded-full"
@@ -108,9 +108,9 @@ const Speakers = () => {
               <br />
               Chuo University, Japan
             </h5>
-          </div>
+          </div> */}
           {/* Speaker 3 */}
-          <div className="text-center mb-8">
+          {/* <div className="text-center mb-8">
             <img
               src={lalit}
               className="w-32 h-32 mb-4 rounded-full"
@@ -123,9 +123,9 @@ const Speakers = () => {
               <br />
               NPCIL, BARC
             </h5>
-          </div>
+          </div> */}
           {/* Speaker 4 */}
-          <div className="text-center mb-8">
+          {/* <div className="text-center mb-8">
             <img
               src={aniket}
               className="w-32 h-32 mb-4 rounded-full"
@@ -138,7 +138,7 @@ const Speakers = () => {
               <br />
               Purdue University, USA
             </h5>
-          </div>
+          </div> */}
         </div>
 
         {/* Invited Speakers */}
@@ -152,12 +152,12 @@ const Speakers = () => {
           </span>
           <h2 className="text-4xl font-bold mb-4">Invited Speakers</h2>
           {/* Uncomment if needed */}
-          {/* <p className="text-lg text-gray-700 mx-auto mb-0">TBD</p> */}
+          <p className="text-lg text-gray-700 mx-auto mb-0">To Be Announced</p>
         </div>
 
         <div className="flex flex-wrap justify-around">
           {/* Invited Speaker 1 */}
-          <div className="text-center mb-8">
+          {/* <div className="text-center mb-8">
             <img
               src={ragiv}
               className="w-32 h-32 mb-4 rounded-full"
@@ -168,9 +168,9 @@ const Speakers = () => {
               <br />
               University of California, Riverside, USA
             </h5>
-          </div>
+          </div> */}
           {/* Invited Speaker 2 */}
-          <div className="text-center mb-8">
+          {/* <div className="text-center mb-8">
             <img
               src={aman}
               className="w-32 h-32 mb-4 rounded-full"
@@ -181,9 +181,9 @@ const Speakers = () => {
               <br />
               Renewals Expert, Cisco
             </h5>
-          </div>
+          </div> */}
           {/* Invited Speaker 3 */}
-          <div className="text-center mb-8">
+          {/* <div className="text-center mb-8">
             <img
               src={kumar}
               className="w-32 h-32 mb-4 rounded-full"
@@ -194,7 +194,7 @@ const Speakers = () => {
               <br />
               Director - Customer Delivery, Cisco
             </h5>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

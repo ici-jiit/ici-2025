@@ -5,7 +5,6 @@ const Registrations = () => {
       id="registration"
       className="relative bg-gradient-to-r from-indigo-500 to-indigo-900 py-12"
     >
-     
       {/* Container */}
       <div className="relative container mx-auto px-4 py-12">
         {/* Header */}
@@ -13,12 +12,15 @@ const Registrations = () => {
           <span className="inline-block p-4 bg-white rounded-full mb-4">
             <img className="h-12 w-12" src={speaker} alt="Registration Icon" />
           </span>
-          <h2 className="text-4xl font-bold mb-4 text-blue-300">Registration</h2>
+          <h2 className="text-4xl font-bold mb-4 text-blue-300">
+            Registration
+          </h2>
           {/* <p className="text-red-600 text-2xl mb-6">REGISTRATION CLOSED</p> */}
+          <p className="text-red-600 text-2xl mb-6">To Be Announced</p>
         </div>
 
         {/* Registration Table */}
-        <div className="overflow-x-auto mb-12">
+        {/* <div className="overflow-x-auto mb-12">
           <table className="min-w-full bg-transparent text-white border-collapse">
             <thead>
               <tr>
@@ -51,7 +53,7 @@ const Registrations = () => {
               </tr>
             </thead>
             <tbody>
-              {/* Author Row */}
+              
               <tr>
                 <th className="border px-4 py-2">AUTHOR</th>
                 <td className="border px-4 py-2 text-center" colSpan="4"></td>
@@ -78,7 +80,7 @@ const Registrations = () => {
                 <td className="border px-4 py-2 text-center">US$ 175</td>
                 <td className="border px-4 py-2 text-center">US$ 140</td>
               </tr>
-              {/* Co-Author Row */}
+              
               <tr>
                 <th className="border px-4 py-2" colSpan="5">
                   CO-AUTHOR (If one author has been registered & other
@@ -107,7 +109,7 @@ const Registrations = () => {
                 <td className="border px-4 py-2 text-center">US$ 140</td>
                 <td className="border px-4 py-2 text-center">US$ 110</td>
               </tr>
-              {/* Non-Author Participants Row */}
+              
               <tr>
                 <th className="border px-4 py-2" colSpan="5">
                   NON-AUTHOR PARTICIPANTS
@@ -161,7 +163,7 @@ const Registrations = () => {
           </table>
         </div>
 
-        {/* Additional Notes */}
+        
         <div className="text-white">
           <ol className="list-decimal pl-6">
             <li>
@@ -182,7 +184,7 @@ const Registrations = () => {
               charged. For the 4th paper, fresh registration has to be done.
             </li>
           </ol>
-        </div>
+        </div> */}
       </div>
     </section>
   );

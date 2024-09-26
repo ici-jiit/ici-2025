@@ -158,11 +158,12 @@ const CommitteeSection = () => {
           <div className="col-span-2">
             <p className="text-gray-700">
               <a
-                href="TPCICIFINAL.pdf"
+                href="#"
                 download
                 className="text-blue-600 hover:underline"
               >
-                Click here for TPC List ICI 2023
+                {/* Click here for TPC List ICI 2023 */}
+                To Be Announced
               </a>
             </p>
           </div>
