@@ -80,7 +80,7 @@ const Header = () => {
             </a>
             <a
               className="text-white hover:text-blue-300"
-              href="./ici2022com/oldici.html"
+              href="https://pulkitmehndiratta.github.io/ICI-2023/"
               target="_blank"
               rel="noopener noreferrer"
             >
