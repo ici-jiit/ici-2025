@@ -28,7 +28,7 @@ const CommitteeSection = () => {
       members: [
         {
           name: "Prof. Vikas Saxena",
-          affiliation: "SMIEEE, JIIT Noida, India",
+          affiliation: "JIIT Noida, India",
         },
       ],
     },
@@ -48,7 +48,7 @@ const CommitteeSection = () => {
       members: [
         {
           name: "Prof. Sandeep Kumar Singh",
-          affiliation: "MIEEE, JIIT Noida, India",
+          affiliation: "JIIT Noida, India",
         },
         {
           name: "Prof. Chetna Gupta",
@@ -95,7 +95,7 @@ const CommitteeSection = () => {
     {
       title: "Registration Chair",
       members: [
-        { name: "Dr. Himani Bansal", affiliation: "SMIEEE, JIIT Noida, India" },
+        { name: "Dr. Himani Bansal", affiliation: "JIIT Noida, India" },
         { name: "Dr Shelendra Pal", affiliation: "JIIT Noida, India" },
       ],
     },

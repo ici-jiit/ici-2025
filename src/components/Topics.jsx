@@ -26,7 +26,7 @@ const Topics = () => {
         //   name: "Prof. Noor Zaman Jhanjhi",
         //   affiliation: "Taylor's University, Malaysia",
         // },
-        { name: "Dr. Rajlakshmi", affiliation: "JIIT Noida, India" },
+        { name: "Dr. Rajalakshmi", affiliation: "JIIT Noida, India" },
       ],
     },
     {
@@ -56,7 +56,7 @@ const Topics = () => {
           name: "Shailendra Rathore",
           affiliation: "United Kingdom,  Abertay University, UK",
         },
-        { name: "Dr. Neetu Sardana", affiliation: "JIIT Noida, India" },
+        { name: "Prof. Neetu Sardana", affiliation: "JIIT Noida, India" },
       ],
     },
     {

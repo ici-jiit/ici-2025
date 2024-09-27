@@ -39,15 +39,17 @@ const CallForPapers = () => {
                 <li className=" py-2">Track-4: Big Data & Data Analytics</li>
                 <li className=" py-2">Track-5: Software Development Engineering</li>
               </ul>
-              <p className="text-lg ">
+              <p className="text-lg">
                 <a
-                  href="#"
+                  href="/ICI-2025.pdf" // Directly referencing the PDF file in the public folder
                   download
                   className="text-blue-300 hover:underline"
                 >
-                  Click here for ICI CFP 2025(To Be Announced)
+                  Click here for ICI CFP 2025
                 </a>
               </p>
+
+
             </div>
           </div>
         </div>
