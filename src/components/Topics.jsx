@@ -27,6 +27,7 @@ const Topics = () => {
         //   affiliation: "Taylor's University, Malaysia",
         // },
         { name: "Dr. Rajalakshmi", affiliation: "JIIT Noida, India" },
+        { name: "Prof. Noor Zaman Jhanjhi", affiliation: "Taylor's University, Malaysia" },
       ],
     },
     {
@@ -46,6 +47,7 @@ const Topics = () => {
       chairs: [
         // { name: "Outside", affiliation: "Outside" },
         { name: "Prof. Devpriya Soni", affiliation: "JIIT Noida, India" },
+        { name: "Prof. Bhuvan Unhelkar", affiliation: "IT, University of South Florida Sarasota-Manatee, USA" },
       ],
     },
     {

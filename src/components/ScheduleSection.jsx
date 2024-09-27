@@ -42,7 +42,7 @@ const ScheduleSection = () => {
             />
             <ScheduleItem
               title="Paper Submission"
-              date="25th June 2025 - 25th July, 2025 (hard deadline)"
+              date="25th June 2025 - 25th July, 2025"
             />
             <ScheduleItem
               title="Notification of acceptance"
