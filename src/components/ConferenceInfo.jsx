@@ -62,7 +62,7 @@ const ConferenceInfo = () => {
                 <h3 className="text-xl font-bold mb-2">
                   Technical Sponsorship
                 </h3>
-                <p>IEEE U.P. Section</p>
+                <p>TBA</p>
               </div>
             </div>
           </div>
