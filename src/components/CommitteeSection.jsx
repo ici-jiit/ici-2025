@@ -6,10 +6,15 @@ const CommitteeSection = () => {
     {
       title: "Chief Patron",
       members: [
-        { name: "Sh. Manoj Gaur", affiliation: "Jaypee Group, India" },
+        {
+          name: "Sh. Manoj Gaur",
+          affiliation: "Jaypee Group, India",
+          url: "https://www.jiit.ac.in/message-chancellor",
+        },
         {
           name: "Prof. S.C. Saxena",
           affiliation: "Pro-chancellor, JIIT Noida, India",
+          url: "https://www.jiit.ac.in/pro-chancellor",
         },
       ],
     },
@@ -20,6 +25,7 @@ const CommitteeSection = () => {
           name: "Prof. Bodh Raj Mehta",
           affiliation:
             "Vice-Chancellor and Director (R.I.D.E.), JIIT Noida, India",
+          url: "https://www.jiit.ac.in/vice-chancellor",
         },
       ],
     },
@@ -29,6 +35,7 @@ const CommitteeSection = () => {
         {
           name: "Prof. Vikas Saxena",
           affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/prof-vikas-saxena-0",
         },
       ],
     },
@@ -38,9 +45,18 @@ const CommitteeSection = () => {
         {
           name: "Prof. D.K. Rai",
           affiliation: "Vice Chancellor, JUET - Guna, India",
+          url: "https://www.juet.ac.in/Profile/VCProfile.php",
         },
-        { name: "Dr. Satish K. Singh", affiliation: "IIIT-Allahabad" },
-        { name: "Prof. Asheesh K. Singh", affiliation: "MNNIT, Allahabad" },
+        {
+          name: "Dr. Satish K. Singh",
+          affiliation: "IIIT-Allahabad",
+          url: "https://cvbl.iiita.ac.in/sks/",
+        },
+        {
+          name: "Prof. Asheesh K. Singh",
+          affiliation: "MNNIT, Allahabad",
+          url: "https://mnnit.ac.in/profile/asheesh",
+        },
       ],
     },
     {
@@ -49,10 +65,12 @@ const CommitteeSection = () => {
         {
           name: "Prof. Sandeep Kumar Singh",
           affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/prof-sandeep-kumar-singh",
         },
         {
           name: "Prof. Chetna Gupta",
           affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/prof-chetna-gupta",
         },
       ],
     },
@@ -62,48 +80,113 @@ const CommitteeSection = () => {
         {
           name: "Prof. Krishna Asawa",
           affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/prof-krishna-asawa",
         },
-        { name: "Prof. Shikha Mehta", affiliation: "JIIT Noida, India" },
+        {
+          name: "Prof. Shikha Mehta",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/prof-shikha-mehta",
+        },
       ],
     },
     {
       title: "Publication Chair(s)",
       members: [
-        { name: "Dr. Mukta Goyal", affiliation: "JIIT Noida, India" },
-        { name: "Dr. Neeraj Jain", affiliation: "JIIT Noida, India" },
+        {
+          name: "Dr. Mukta Goyal",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-mukta-goyal",
+        },
+        {
+          name: "Dr. Neeraj Jain",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-neeraj-jain",
+        },
       ],
     },
     {
       title: "Publicity Chair(s)",
       members: [
-        { name: "Dr. Mukesh Saraswat", affiliation: "JIIT Noida, India" },
-        { name: "Dr Ankit Vidyarathi", affiliation: "JIIT Noida, India" },
-        { name: "Dr Imran Rasheed", affiliation: "JIIT Noida, India" },
-        { name: "Ms Neetu Singh", affiliation: "JIIT Noida, India" },
-        { name: "Ms Jyoti ", affiliation: "JIIT Noida, India" },
-        { name: "Ms Shagun Gupta", affiliation: "JIIT Noida, India" },
-        { name: "Ms Preeti Mittal", affiliation: "JIIT Noida, India" },
+        {
+          name: "Dr. Mukesh Saraswat",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-mukta-goyal",
+        },
+        {
+          name: "Dr Ankit Vidyarathi",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-ankit-vidyarthi",
+        },
+        {
+          name: "Dr Imran Rasheed",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-imran-rasheed",
+        },
+        {
+          name: "Ms Neetu Singh",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/ms-neetu-singh",
+        },
+        {
+          name: "Ms Jyoti",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/ms-jyoti-chauhan",
+        },
+        {
+          name: "Ms Shagun Gupta",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/shagun-gupta",
+        },
+        {
+          name: "Ms Preeti Mittal",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/ms-preeti-mittal",
+        },
       ],
     },
     {
       title: "Tutorial and Workshop Chair(s)",
       members: [
-        { name: "Dr. Kedar Nath", affiliation: "JIIT Noida, India" },
-        { name: "Dr.  Arti Jain", affiliation: "JIIT Noida, India" },
+        {
+          name: "Dr. Kedar Nath",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-kedar-nath-singh",
+        },
+        {
+          name: "Dr.  Arti Jain",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-arti-jain",
+        },
       ],
     },
     {
       title: "Registration Chair",
       members: [
-        { name: "Dr. Himani Bansal", affiliation: "JIIT Noida, India" },
-        { name: "Dr Shelendra Pal", affiliation: "JIIT Noida, India" },
+        {
+          name: "Dr. Himani Bansal",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-himani-bansal",
+        },
+        {
+          name: "Dr Shelendra Pal",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-shelendra-pal",
+        },
       ],
     },
     {
       title: "Web Administration",
       members: [
-        { name: "Dr. Pulkit Mehndiratta", affiliation: "JIIT Noida, India" },
-        { name: "Dr. Vartika Puri", affiliation: "JIIT Noida, India" },
+        {
+          name: "Dr. Pulkit Mehndiratta",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-pulkit-mehndiratta",
+        },
+        {
+          name: "Dr. Vartika Puri",
+          affiliation: "JIIT Noida, India",
+          url: "https://www.jiit.ac.in/dr-vartika-puri",
+        },
       ],
     },
   ];
@@ -127,7 +210,12 @@ const CommitteeSection = () => {
               <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
                 {item.members.map((member, idx) => (
                   <p key={idx} className="text-gray-700">
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <a
+                      href={member.url}
+                      className="text-blue-600 hover:underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {member.name}
                     </a>
                     , {member.affiliation}
@@ -157,11 +245,7 @@ const CommitteeSection = () => {
           </div>
           <div className="col-span-2">
             <p className="text-gray-700">
-              <a
-                href="#"
-                download
-                className="text-blue-600 hover:underline"
-              >
+              <a href="#" download className="text-blue-600 hover:underline">
                 {/* Click here for TPC List ICI 2023 */}
                 To Be Announced
               </a>
