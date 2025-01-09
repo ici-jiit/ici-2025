@@ -46,7 +46,7 @@ const Speakers = () => {
                     (To Be Announced)
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   The instructions for authors of accepted papers are as
                   follows:
                   <br />
@@ -63,7 +63,7 @@ const Speakers = () => {
                   </a>{" "}
                   to download the instructions file for authors of accepted
                   papers in ICI-2023.
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
